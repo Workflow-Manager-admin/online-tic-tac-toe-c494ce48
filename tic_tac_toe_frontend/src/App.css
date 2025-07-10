@@ -37,7 +37,8 @@ body, html, #root, .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--secondary);
+  background: rgba(228, 221, 221, 1);
+  text-align: left;
   padding: 2.5rem 2rem;
   border-radius: 16px;
   box-shadow: 0 4px 24px 0 rgba(30, 65, 120, 0.08);
@@ -46,10 +47,11 @@ body, html, #root, .App {
 
 .ttt-title {
   font-weight: 600;
-  font-size: 2.1rem;
+  font-size: 2.1625rem;
   margin-bottom: 1.2rem;
-  color: var(--primary);
+  color: #003366;
   letter-spacing: 0.01em;
+  text-align: left;
 }
 
 .ttt-statusbar {

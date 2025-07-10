@@ -121,7 +121,7 @@ function App() {
   return (
     <div className="App" style={{ minHeight: "100vh" }}>
       <div className="ttt-outer">
-        <h1 className="ttt-title">Tic Tac Toe</h1>
+        <h1 className="ttt-title">Tic tac toe!!</h1>
         <div className="ttt-statusbar">{status}</div>
         <div className="ttt-board" role="grid" aria-label="Tic Tac Toe Board">
           {Array.from({ length: 9 }, (_, idx) => renderSquare(idx))}
